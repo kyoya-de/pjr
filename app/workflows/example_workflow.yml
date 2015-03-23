@@ -1,0 +1,5 @@
+tasks:
+    fetchFromFtp: ftp_download
+    unzipFile: unzip
+    parseFile: parse_xml
+    saveToDb: update_db

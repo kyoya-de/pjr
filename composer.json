@@ -1,0 +1,17 @@
+{
+  "name": "kyoya/pjr",
+  "type": "project",
+  "description": "This is a framework to run jobs (maybe cron-jobs). Each job is separated into three tasks: fetching data from source, process fetched data, put into target format.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Stefan Krenz",
+      "email": "info@kyoya.de"
+    }
+  ],
+  "require": {
+    "php":"~5.4",
+    "kyoya/php-job-runner":"~1.0"
+  }
+}
