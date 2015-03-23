@@ -13,5 +13,8 @@
   "require": {
     "php":"~5.4",
     "kyoya/php-job-runner":"~1.0"
+  },
+  "autoload":{
+    "psr-0":["src/"]
   }
 }
